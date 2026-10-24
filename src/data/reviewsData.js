@@ -19,19 +19,19 @@ export const reviewsData = [
   },
   {
     id: 2,
-    author: "Julian Schmidt",
-    role: "Coffee Enthusiast • Berlin",
+    author: "Tural Məmmədov",
+    role: "Daimi Qonaq • Baku",
     rating: 5,
     date: "3 weeks ago",
     translations: {
       en: {
-        text: "As someone who travels for specialty coffee, finding this place near the Old City was wonderful. They dialed in the Ethiopian V60 to absolute perfection. Friendly English-speaking baristas and super peaceful vibes."
+        text: "One of my absolute favorite neighborhood cafes in Baku. They dialed in the Ethiopian V60 filter brew to perfection. Super friendly baristas and the coziest atmosphere to spend an afternoon."
       },
       az: {
-        text: "İçərişəhərə yaxın belə yüksək səviyyəli bir kafe tapmaq möhtəşəm oldu. Efiopiya V60 filtr kofesini çox peşəkar dəmlədilər. Baristalar çox gülərüz və nəzakətlidir."
+        text: "Bakıda ən çox sevdiyim kofe guşələrindən biri. Efiopiya V60 filtr kofesini çox peşəkar dəmləyirlər. Baristalar çox gülərüzdür və məkanın sakit, isti ab-havası var."
       },
       ru: {
-        text: "Настоящая находка возле стен Старого Города. Пуровер V60 на эфиопском зерне заварили филигранно — раскрылись все цветочные нотки. Очень теплый персонал и классный интерьер."
+        text: "Одно из моих любимых мест в Баку. Пуровер V60 на эфиопском зерне заварили великолепно — чистый и сбалансированный вкус. Очень душевные бариста и уютная атмосфера."
       }
     }
   },
