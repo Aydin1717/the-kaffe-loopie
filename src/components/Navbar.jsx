@@ -96,7 +96,7 @@ export const Navbar = ({
             {/* Staff / Mətbəx Portal Entry Button */}
             <button 
               className="btn-secondary nav-desktop-only"
-              style={{ padding: '8px 12px', fontSize: '0.78rem', display: 'inline-flex', alignItems: 'center', gap: '6px', background: isStaffLoggedIn ? '#E8F5E9' : '#FFFFFF', borderColor: isStaffLoggedIn ? '#81C784' : 'var(--border-medium)' }}
+              style={{ padding: '8px 12px', fontSize: '0.78rem', alignItems: 'center', gap: '6px', background: isStaffLoggedIn ? '#E8F5E9' : '#FFFFFF', borderColor: isStaffLoggedIn ? '#81C784' : 'var(--border-medium)' }}
               onClick={onOpenStaffPortal}
               title="Mətbəx və Admin İdarəetmə Paneli"
             >

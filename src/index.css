@@ -242,14 +242,16 @@ button {
   right: 0;
   z-index: 999;
   transition: all var(--transition-normal);
-  padding: 18px 0;
-}
-.navbar-scrolled {
-  background: rgba(253, 251, 247, 0.94);
+  padding: 12px 0;
+  background: rgba(253, 251, 247, 0.96);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-light);
-  padding: 12px 0;
+  box-shadow: 0 2px 10px rgba(44, 34, 30, 0.04);
+}
+.navbar-scrolled {
+  padding: 10px 0;
+  background: rgba(253, 251, 247, 0.98);
   box-shadow: var(--shadow-sm);
 }
 
@@ -257,18 +259,19 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 12px;
 }
 
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   text-decoration: none;
+  flex-shrink: 0;
 }
 .brand-icon-box {
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   border-radius: 12px;
   background: linear-gradient(135deg, #3C2A21, #1E1815);
   color: #EBD3BE;
@@ -276,6 +279,7 @@ button {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 12px rgba(44, 34, 30, 0.2);
+  flex-shrink: 0;
 }
 .brand-text-col {
   display: flex;
@@ -283,18 +287,20 @@ button {
 }
 .brand-name {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.18rem;
   font-weight: 700;
   color: var(--text-main);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   line-height: 1.1;
+  white-space: nowrap;
 }
 .brand-sub {
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--accent-warm);
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -1884,23 +1890,38 @@ button {
 
   /* Navbar */
   .navbar-wrapper {
-    padding: 12px 0;
+    padding: 10px 0;
   }
   .navbar-inner {
-    gap: 10px;
+    gap: 8px;
   }
   .brand-name {
-    font-size: 1.12rem;
+    font-size: 1.05rem;
+    white-space: nowrap;
   }
   .brand-sub {
-    font-size: 0.62rem;
+    display: none !important;
+  }
+  .brand-icon-box {
+    width: 36px;
+    height: 36px;
   }
 
   /* Hero Section */
   .hero-wrapper {
     min-height: auto;
-    padding-top: 96px;
+    padding-top: 105px;
     padding-bottom: 36px;
+  }
+  .hero-badge-pill {
+    font-size: 0.74rem;
+    padding: 6px 12px;
+    gap: 6px;
+    margin-bottom: 16px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    line-height: 1.4;
+    max-width: 100%;
   }
   .hero-grid {
     gap: 32px;
