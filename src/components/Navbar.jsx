@@ -95,7 +95,7 @@ export const Navbar = ({
 
             {/* Staff / Mətbəx Portal Entry Button */}
             <button 
-              className="btn-secondary"
+              className="btn-secondary nav-desktop-only"
               style={{ padding: '8px 12px', fontSize: '0.78rem', display: 'inline-flex', alignItems: 'center', gap: '6px', background: isStaffLoggedIn ? '#E8F5E9' : '#FFFFFF', borderColor: isStaffLoggedIn ? '#81C784' : 'var(--border-medium)' }}
               onClick={onOpenStaffPortal}
               title="Mətbəx və Admin İdarəetmə Paneli"
@@ -119,7 +119,7 @@ export const Navbar = ({
 
             {/* Reserve CTA */}
             <button 
-              className="btn-primary" 
+              className="btn-primary nav-desktop-only" 
               style={{ padding: '10px 18px', fontSize: '0.86rem' }}
               onClick={onOpenReserve}
             >
